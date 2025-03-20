@@ -28,7 +28,7 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
-      <header class="row resume-header justify-content-center">
+      <header class="row resume-header justify-content-center ">
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -38,14 +38,15 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/Foto.jpg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 Square  my-3" src="images/Foto.jpg" alt="Portrait of Firstname Lastname" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Lotte Hoevenaars&nbsp;</h1>
-          <h5 class="fst-italic tagline">&nbsp;A busy bee who is always looking for adventure!</h5>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content ">
+          <h1 class="fw-bolder big-shoulders-stencil">&nbsp;</h1>
+          <h1 class="fw-bolder big-shoulders-stencil">Lotte Hoevenaars</h1>
+<h5 class="fst-italic tagline big-shoulders-stencil">A busy bee who is always looking for adventure!</h5>
         </div>
       </header>
 
@@ -65,7 +66,8 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section boldonse-regular">
-            <h2>Professional Experience</h2>
+            <h2>&nbsp; &nbsp;Professional Experience</h2>
+            <p>&nbsp;</p>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -115,41 +117,42 @@
 
           <section class="my-3 biography-section boldonse-regular">
             <h2>Education</h2>
-            <ul class="biography-list list-unstyled">
+            <p>&nbsp;</p>
+<ul class="biography-list list-unstyled">
 
-              <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto buas" src="images/schools/logo-buas.svg" alt="School logo" width="120" >
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>Sep 2023 – present</h5>
-                  <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Radio specialist&nbsp;</li>
-                    <li>Audo specialist in film making&nbsp;</li>
-                    <li>Adobe&nbsp; specialist&nbsp;</li>
-                  </ul>
-                </div>
-              </li>
+          <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
+          <li class="biography-item row mb-2">
+            <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+              <img class="biography-logo mw-100 d-block mx-auto buas" src="images/schools/logo-buas.svg" alt="School logo" width="120" >
+            </div>
+            <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+              <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+              <h5>Sep 2023 – present</h5>
+              <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
+              <ul class="biography-details list-unstyled">
+                <li>Radio specialist&nbsp;</li>
+                <li>Audo specialist in film making&nbsp;</li>
+                <li>Adobe&nbsp; specialist&nbsp;</li>
+              </ul>
+            </div>
+          </li>
 
-              <!-- 2nd item in education -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto buas" src="images/employers/newman.png" alt="School logo" width="80">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Havo Technasium (NT), Newman college Breda</h4>
-                  <h5>Sep 2018 - present</h5>
-                  <ul class="biography-details list-unstyled">
+          <!-- 2nd item in education -->
+          <li class="biography-item row mb-2">
+            <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+              <img class="biography-logo mw-100 d-block mx-auto buas" src="images/employers/newman.png" alt="School logo" width="80">
+            </div>
+            <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+              <h4>Havo Technasium (NT), Newman college Breda</h4>
+              <h5>Sep 2018 - present</h5>
+              <ul class="biography-details list-unstyled">
 
-                    <li>Audiovisual media specialization</li>  
-					<li>Finished technasium with a 9&nbsp;&nbsp;</li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+                <li>Audiovisual media specialization</li>  
+				<li>Finished technasium with a 9&nbsp;&nbsp;</li>
+              </ul>
+            </div>
+          </li>
+          </ul>
           </section>
 
           <!-- This is the end of the "Education" section -->
